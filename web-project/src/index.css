@@ -1,0 +1,100 @@
+body{
+  background-color: rgb(17, 14, 14) ;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin:15px 15px 15px 15px;
+  border-radius: 3%;
+  background-color: rgb(41, 39, 39);
+}
+.navbar a{
+  margin-left: 15px;
+  color: bisque;
+}
+.navbar button{
+  margin-right: 15px;
+  background-color: rgb(17, 14, 14);
+  color: white;
+  border: none;
+}
+.addList{
+  width: 190px;
+  height: 190px;
+  background-color: rgb(41, 39, 39);
+  margin-left: 15px;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+.addList button{
+  background-color: rgb(41, 39, 39);
+  width: 190px;
+  height: 190px;
+  color: white;
+  border:none;
+  font-size: 50px;
+  font-weight: 80px;
+  border-radius: 10%; 
+  cursor: pointer;
+}
+.formdiv h1{
+  text-align: center;
+  margin-top: 30px;
+}
+form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input{
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 7%;
+  background-color: rgb(41, 39, 39);
+}
+.buttondiv button{
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.login h1{
+  text-align: center;
+  margin-top: 30px;
+} 
+span{
+  color: white;
+}
+.hole {
+  margin-top: 30px;
+  max-width: 190px;
+  height: 190px;
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  border: #292828 solid;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+
+hole p {
+  margin-top: 0px;
+}
+.all {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* create 4 equal columns */
+  grid-gap: 10px;
+  margin-left: 15px; /* add some space between columns */
+}
+.hole button{
+  margin-left: 90px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1.0em;
+}
+
